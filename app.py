@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import sklearn
 
 def recommend(movie):
     movie_index= movies[movies['title']==movie].index[0] # marking index of the movie 
